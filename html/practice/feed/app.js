@@ -20,7 +20,7 @@ likeButton.addEventListener("click", function(cnt) {
     this.innerHTML = "10 Likes"
     this.classList.remove("active")
   } else {
-    this.innerHTML = "13 Likes"
+    this.innerHTML = "15 Likes"
     this.classList.add("active")
   }
   this.following = !this.following
