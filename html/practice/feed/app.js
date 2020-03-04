@@ -17,7 +17,7 @@ followButton.following = false
 
 likeButton.addEventListener("click", function(cnt) {
   if (this.following) {
-    this.innerHTML = "10 Likes"
+    this.innerHTML = "14 Likes"
     this.classList.remove("active")
   } else {
     this.innerHTML = "15 Likes"
